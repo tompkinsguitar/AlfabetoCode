@@ -1,0 +1,179 @@
+CHEKSUMS for files from /jrp/Zso
+at http://kern.humdrum.org
+downloaded on Mon Nov  7 07:47:57 PST 2016
+A current version of these files may be downloaded using the address:
+   http://kern.humdrum.org/data?f=zip&l=/jrp/Zso
+==================================================================
+
+The following lines list the checksum values for all score
+files in this downloaded zip archive.
+
+A "checksum" value is an error-checking mechanism that may
+assist in determining whether a file has been modified or data
+garbled due to transmission or faulty storage.  The "checksum A"
+value uses the POSIX 2 checksum algorithm.  The "checksum B" value
+uses the CCITT cyclic redundancy check algorithm.  
+
+Note that checksum commands will differ for ASCII files formatted
+in DOS/Windows style or Unix/Macintosh formatted text.  The files in
+this ZIP archive were in Unix/Macintosh line formatting style when the
+checksums were compiled.
+
+checksum A   checksum B    filename
+===================================================================
+
+2987767165 1932 Duf3080-Hic_iocundus_sumit_mundus.krn
+4244737605 3216 Jos2701-A_la_mort__Monstra_te_esse_matrem.krn
+4288846628 5164 Jos2702-A_lombre_dung_buissonnet.krn
+725361150 3476 Jos2703-Cela_sans_plus.krn
+359676618 2990 Jos2704-Cela_sans_plus.krn
+554065726 2983 Jos2705-Ce_povre_mendiant__Pauper_sum_ego.krn
+311303992 4047 Jos2706-De_tous_biens_plaine.krn
+1691505551 3225 Jos2707-En_lombre_dung_buissonnet.krn
+2421099539 3343 Jos2708-Entree_suis_en_grant_pensee.krn
+1392572324 2801 Jos2709-Et_trop_penser.krn
+3424619063 4188 Jos2711-Fortuna_desperata.krn
+536398084 3507 Jos2712-Fortuna_dun_gran_tempo.krn
+3783524759 6064 Jos2713-Helas_madame.krn
+388822574 4650 Jos2714-Helas_que_pourra.krn
+2477974413 3667 Jos2715-Ile_fantazies_de_Joskin.krn
+1555097265 3845 Jos2716-Jay_bien_nourry.krn
+3387373497 4046 Jos2717-Je_me.krn
+4182316200 3747 Jos2718-Je_ne_demande.krn
+1733359894 2504 Jos2719-Je_nose_plus.krn
+3041243164 10801 Jos2720-La_belle_se_siet.krn
+245498838 3166 Jos2721-La_Bernardina.krn
+4117631863 3959 Jos2722-La_plus_des_plus.krn
+2341312968 6851 Jos2723-Lheure_est_venue__Circumdederunt_me.krn
+3895755088 4039 Jos2724-Madame_helas.krn
+2311701842 4280 Jos2725-Marguerite.krn
+1709882808 5212 Jos2726-Mes_pensees.krn
+823490644 2858 Jos2727-Mon_mary_ma_diffamee.krn
+3404226294 4441 Jos2728-Navez_point_veu_mal_assenee.krn
+2500630331 3239 Jos2729-O_Venus_bant.krn
+256587908 4257 Jos2730-Pensif_mari.krn
+3026105673 3858 Jos2731-Petite_camusette.krn
+373707534 3150 Jos2732-Quant_je_vous_voye.krn
+42126033 3839 Jos2733-Que_vous_madame__In_pace.krn
+601743353 5364 Jos2734-Si_jay_perdu_mon_amy.krn
+2986659175 3747 Jos2735-Si_jeusse_Marion.krn
+907029622 3924 Jos2736-Vray_dieu_damour.krn
+448243710 4394 Jos2801-A_lheure.krn
+2150405233 6239 Jos2802-Ach_hulff_mich_leid.krn
+425919441 5066 Jos2803-Adieu_mes_amours.krn
+1660922085 3284 Jos2804-Baisez_moy.krn
+1646624703 3541 Jos2805-Belle_pour_lamour_de_vous.krn
+1460012945 4335 Jos2806-Bergerette_savoysienne.krn
+3512306708 5162 Jos2807-Comment_peult_avoir_joye.krn
+557342708 5176 Jos2808-Cueurs_desolez.krn
+113863010 6083 Jos2809-De_tous_biens_plaine.krn
+2266744584 3885 Jos2810-Dictez_moy_bergere.krn
+1880504239 6146 Jos2811-Dulces_exuviae.krn
+2255894287 3557 Jos2812-El_grillo.krn
+1287148703 2941 Jos2813-En_lombre_dung_buissonnet.krn
+3764946088 5482 Jos2814-Entre_je_suis.krn
+3081872619 6864 Jos2815-Fama_malum.krn
+972609097 2557 Jos2817-Guillaume_se_va_chaufer.krn
+3333935404 3311 Jos2818-In_te_domine_speravi.krn
+1487595115 3403 Jos2819-Je_ris.krn
+2346053020 4168 Jos2820-Je_sey_bien_dire.krn
+396114673 3453 Jos2821-Leal_schray_tante.krn
+1487299765 5691 Jos2822-Le_villain.krn
+226060995 2227 Jos2823-Lhomme_arme.krn
+2128818178 4787 Jos2824-Lourdault_Lourdault.krn
+3637392609 2922 Jos2825-Mille_regretz.krn
+2622844817 6044 Jos2826-Mon_seul_plaisir.krn
+3108906923 5337 Jos2827-Plus_nestes_ma_maistresse.krn
+115750541 6000 Jos2828-Plus_nulz_regrets.krn
+3699220030 5283 Jos2829-Qui_belles_amours.krn
+1254296269 2825 Jos2830-Scaramella.krn
+1708461999 3667 Jos2831-Se_congie_prens__Recordans_de_my_segnora.krn
+1582101213 4316 Jos2832-Si_jay_perdu.krn
+2706395427 3263 Jos2833-Tant_vous_aimme.krn
+276814116 4723 Jos2834-Tous_les_regretz.krn
+3489623402 3435 Jos2835-Une_musque_de_Buscaya.krn
+192524650 4163 Jos2836-Vive_le_roy.krn
+371813568 5548 Jos2837-Vivrai_je_tousjours.krn
+1825299748 4901 Jos2838-Textless_piece_3.krn
+2114580926 3198 Jos2839-Textless_piece_4.krn
+1781276920 7034 Jos2901-Cent_mille_regretz.krn
+2870937285 6199 Jos2902-Cueur_langoreulx.krn
+447835156 5430 Jos2903-Cueurs_desolez__Plorans_ploravit.krn
+2460651930 6002 Jos2904-Douleur_me_bat.krn
+3980122910 7547 Jos2905-Du_mien_amant.krn
+1471852641 5730 Jos2906-En_non_saichant.krn
+1864781164 7932 Jos2907-Faulte_dargent.krn
+3901108923 5547 Jos2908-Incessament_livre.krn
+3726453197 6376 Jos2909-Incessament_mon_povre.krn
+399663116 6602 Jos2910-Je_me_complains.krn
+3262401562 7055 Jos2911-Je_ne_me_puis_tenir_daimer.krn
+3153041893 7893 Jos2913-Lamye_a_tous.krn
+461370065 8479 Jos2914.1-Ma_bouche_rit--a_5.krn
+1168614584 10208 Jos2914.2-Ma_bouche_rit--a_6.krn
+2229546166 6764 Jos2915-Mala_se_nea.krn
+737041954 4761 Jos2916-Mi_lares_vous_tousjours_languir.krn
+2467654605 5295 Jos2917-Nesse_pas_ung_grant_deplaisir.krn
+664780747 9358 Jos2918-Nymphes_des_bois__Requiem.krn
+704151324 5783 Jos2919-Parfons_regretz.krn
+3411946598 4781 Jos2920-Pleine_de_dueil.krn
+3524117686 6686 Jos2921-Plusieurs_regretz.krn
+3753251873 5829 Jos3002-Allegez_moy.krn
+3141894205 4881 Jos3003-Baisiez_moy.krn
+3172113298 5988 Jos3005-Jay_bien_cause_de_lamenter.krn
+88763517 6575 Jos3006-Nimphes_nappes__Circumdederunt_me.krn
+3711882662 5588 Jos3007-Petite_camusette.krn
+1644041421 6174 Jos3008-Pour_souhaitter.krn
+1322888365 14181 Jos3009-Regretz_sans_fin.krn
+244960041 6716 Jos3010-Si_vous_navez.krn
+1359500847 12697 Jos3011-Se_congie_prens.krn
+4119458069 8914 Jos3012-Tenez_moy_en_voz_bras.krn
+3417828401 5454 Jos3013-Vous_larez.krn
+1379492477 5703 Jos3014-Vous_ne_laurez_pas.krn
+876453999 3531 Jos3017-Il_nest_plaisir.krn
+2236707907 7894 Ock3001-Aultre_Venus.krn
+2923756331 3739 Ock3002-Baisies_moy.krn
+585955972 4321 Ock3003-Dung_aultre_amer.krn
+3230011265 4118 Ock3004-Fors_seullement_contre.krn
+2853263979 10935 Ock3005-Fors_seulement_lattente.krn
+2336760145 2624 Ock3006-Il_ne_men_chault.krn
+2238936186 3658 Ock3007-Jen_ay_dueil.krn
+2093974644 8144 Ock3008-La_despourveue.krn
+3549897870 2258 Ock3009-Lautre_dantan.krn
+1099275538 2648 Ock3010-Les_desleaulx.krn
+1995786471 4387 Ock3011-Ma_bouche_rit.krn
+3014058011 9228 Ock3012-Ma_maistresse.krn
+278701313 4474 Ock3013-Mort_tu_as_navre__Miserere.krn
+1521580451 4641 Ock3014-O_rosa_bella.krn
+134524391 5779 Ock3015-Prenez_sur_moy.krn
+3639187397 10269 Ock3016-Presque_transi.krn
+4096430700 2872 Ock3017-Quant_de_vous_seul.krn
+300024545 5117 Ock3018-Ques_mi_vida.krn
+2006951573 5898 Ock3019-Selle_mamera__Petite_camusette.krn
+3155821667 3001 Ock3020-Se_vostre_cuer.krn
+4069513999 3200 Ock3021-Tant_fuz_gentement.krn
+185329311 2753 Ock3022-Ung_aultre_la.krn
+2492973596 4003 Ock3023-Jen_ay_dueil.krn
+2961676501 3053 Ock3025-Departes_vous.krn
+1572913030 4142 Ock3026-Malheur_me_bat.krn
+2755213483 4413 Ort3001-Dung_aultre_amer.krn
+3958889583 9449 Ort3002-Dulces_exuvie.krn
+3541829223 5446 Ort3004-Fors_seulement.krn
+1832207875 2510 Ort3005-Je_ne_suis_poinct.krn
+4221168692 7324 Ort3006-La_mi_la_sol.krn
+445576111 10859 Ort3008-Si_jay_perdu_mon_amy.krn
+2502867932 3392 Ort3009-Venus_tu_ma_pris.krn
+4244693614 3645 Rue3001-A_vous_non_autre.krn
+1490608716 3768 Rue3002-Autant_en_emporte_le_vent.krn
+1649481417 4763 Rue3003-Ce_nest_pas_jeu.krn
+1781276920 7034 Rue3004-Cent_mille_regretz.krn
+2314704899 5358 Rue3006-De_loeil_de_la_fille_du_roy.krn
+2464303414 4759 Rue3011-Il_est_bien_heureux.krn
+568436752 4781 Rue3012-Il_viendra_le_jour_desire.krn
+3726453197 6376 Rue3013-Incessament_mon_povre.krn
+2306662298 4780 Rue3015-Mijn_hert_altijt_heeft_verlanghen.krn
+1169169847 4984 Rue3017-Pour_ce_que_le_suis.krn
+3776336214 4821 Rue3019-Pourquoy_tant.krn
+3853156523 3980 Rue3020-Pour_ung_jamais.krn
+2860234425 4518 Rue3022-Tous_les_regretz.krn
+1862508838 3537 Rue3023-Tous_nobles_coeurs.krn
+4148514015 4881 Rue3024-Trop_plus_secret.krn

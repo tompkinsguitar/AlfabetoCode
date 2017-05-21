@@ -1,0 +1,343 @@
+!!!COM:      Bach, Johann Sebastian
+!!!CDT:      1685/03/31/-1750/07/28/
+!!!OPR@@GER: Das wohltemperirte Clavier
+!!!OVM@@GER: Band I
+!!!OPR@ENG:  Well-Tempered Clavier
+!!!OVM@ENG:  Book I
+!!!OTL:      Prelude
+!!!OKY:      B-flat minor
+!!!ONM:      no. 22
+!!!SCT:      BWV 867
+!!!OMV:      1
+**kern	**kern	**kern	**kern	**kern
+*clefF4	*clefF4	*clefG2	*clefG2	*clefG2
+*k[b-e-a-d-g-]	*k[b-e-a-d-g-]	*k[b-e-a-d-g-]	*k[b-e-a-d-g-]	*k[b-e-a-d-g-]
+*b-:	*b-:	*b-:	*b-:	*b-:
+*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
+*MM46	*MM46	*MM46	*MM46	*MM46
+=1-	=1-	=1-	=1-	=1-
+8B-	4d-	8r	4ryy	8r
+8B-	.	8f	.	16b-
+.	.	.	.	16cc
+8B-	8r	8r	8b-	8dd-
+8B-	8d-	8f	8b-	8dd-
+8B-	4e-	4g-	8b-	8dd-
+8B-	.	.	16an	16cc
+.	.	.	16b-	16dd-
+8B-	8r	8r	8cc	8ee-
+8B-	8c	8e- 8g-	8an 8cc	8ee-
+=2	=2	=2	=2	=2
+8B-	4d-	4f	8cc	8ee-
+8B-	.	.	16b-	16dd-
+.	.	.	16cc	16ee-
+8B-	8r	8r	8dd-	8ff
+8B-	8d-	8f	8dd-	8ff
+8B-	4c	4an	8dd-	8ff
+8B-	.	.	16cc	16ee-
+.	.	.	16dd-	16ff
+8B-	8r	8r	8ee-	8gg-
+8B-	8c	8a	8ee-	8gg-
+=3	=3	=3	=3	=3
+*	*staff:12	*	*	*
+*	*clefG2	*	*	*
+8B-	8B-	4b-	8ee-	8gg-
+16B-	8ryy	.	8dd-	16ff
+16c	.	.	.	16ee-
+8d-	8r	8r	4ryy	8ff
+8d-	8b-	8dd-	.	[8ff
+8d-	8gn	4b-	2ryy	8ff]
+16c	8g-	.	.	16ee-
+16d-	.	.	.	16dd-
+8e-	8r	8r	.	8cc
+8e-	8g-	8b-	.	16dd-
+.	.	.	.	16ee-
+=4	=4	=4	=4	=4
+8e-	4f	8f	1ryy	8an
+16d-	.	16b-	.	[8ff
+16e-	.	16cc	.	.
+8f	8r	[4dd-	.	8ff]
+8f	8f	.	.	16ggn
+.	.	.	.	16aan
+8f	[2g-	8dd-]	.	4.bb-
+16e-	.	16cc	.	.
+16d-	.	16dd-	.	.
+8c	.	[4ee-	.	.
+8B-	.	.	.	16aan
+.	.	.	.	16bb-
+=5	=5	=5	=5	=5
+4.An	8g-]	8ee-]	1ryy	4.ccc
+.	16ee-	16gg-	.	.
+.	16dd-	16ff	.	.
+.	[4cc	[4ee-	.	.
+16A	.	.	.	16ccc
+16B-	.	.	.	16bb-
+4.c	8cc]	8ee-]	.	4.aan
+.	16cc	16ee-	.	.
+.	16b-	16dd-	.	.
+.	[4an	[4cc	.	.
+16c	.	.	.	16aa
+16d-	.	.	.	16ccc
+=6	=6	=6	=6	=6
+4.e-	8a]	8cc]	1ryy	[1ff
+.	16f	16an	.	.
+.	16gn	16b-	.	.
+.	[4a	8cc	.	.
+16e-	.	16cc	.	.
+16d-	.	16dd-	.	.
+8c	8a]	8ee-	.	.
+16c	16a	16cc	.	.
+16B-	16b-	16dd-	.	.
+8An	8cc	[4ee-	.	.
+16Gn	8a	.	.	.
+16F	.	.	.	.
+=7	=7	=7	=7	=7
+[2B-	4.f	8ee-]	1ryy	8ff]
+.	.	16dd-	.	16ff
+.	.	16cc	.	16ee-
+.	.	8b-	.	8dd-
+.	16g-	8an	.	16ee-
+.	16e-	.	.	16cc
+8B-]	4f	4b-	.	8dd-
+16d-	.	.	.	16b-
+16c	.	.	.	16cc
+8B-	8r	8r	.	8dd-
+8A-X	8f	8b-	.	8dd-
+=8	=8	=8	=8	=8
+8Gn	8e-	8b-	1ryy	8dd-
+16A-	8e-	8a-	.	16cc
+16G	.	.	.	16b-
+8F	8ryy	8r	.	8cc
+8E-	8f	8a-	.	8cc
+8Dn	8f	8a-	.	8cc
+16Gn	8f	8gn	.	16b-
+16F	.	.	.	16a-
+8En	8ryy	8r	.	8b-
+8G	8f	8g	.	8b-
+=9	=9	=9	=9	=9
+8C	8en	8gn	1ryy	8b-
+16F	8c	8f	.	16a-
+16E-X	.	.	.	16gn
+8D-X	8ryy	8r	.	8a-
+8C	8c	8f	.	8a-
+8BB-	8d-	8f	.	8a-
+8BB-	8B-	8d-	.	16gn
+.	.	.	.	16a-
+8BB-	8ryy	8r	.	8b-
+8BB-	8B-	8d-	.	8g
+=10	=10	=10	=10	=10
+*	*staff:7	*	*	*
+*	*clefF4	*	*	*
+8BB-	8Gn	8c	1ryy	8en
+8AA-	[8A-	16f	.	[8cc
+.	.	16en	.	.
+8D-	8A-]	8f	.	8cc]
+8D-	16Gn	8f	.	16b-
+.	16F	.	.	16a-
+8D-	8G	8f	.	8b-
+16C	8G	16en	.	[8b-
+16BB-	.	16dn	.	.
+8C	8G	8e	.	8b-]
+8C	8c	8e	.	16a-
+.	.	.	.	16gn
+=11	=11	=11	=11	=11
+8C	8c	8en	1ryy	8a-
+8FF	[8c	16f	.	[8a-
+.	.	16e-	.	.
+8BB-	8c]	8d-X	.	8a-]
+8BB-	16B-	8d-	.	16g-X
+.	16An	.	.	16f
+8BB-	8B-	8d-	.	8g-
+8BB-	16G-	16b-	.	[8dd-
+.	16F	16an	.	.
+8BB-	4G-	4b-	.	8dd-]
+8BB-	.	.	.	16cc
+.	.	.	.	16b-
+=12	=12	=12	=12	=12
+*	*	*	*staff:8	*
+8BB-	8Gn	8cc	4ryy	8een
+8AA-	16A-	16f	.	8cc
+.	16G	16gn	.	.
+8D-	[4F	8a-	8r	2ff
+8C	.	8a-	8cc	.
+8BB-	8F]	8a-	8dd-	.
+8D-	16En	16gn	8b-	.
+.	16F	16a-	.	.
+8C	8Gn	8b-	8r	4een
+8C	8G	8b-	8cc	.
+=13	=13	=13	=13	=13
+4FF	4F	8b-	8cc	4ff
+.	.	16a-	16cc	.
+.	.	16gn	16b-	.
+8r	4ryy	4a-	4cc	8r
+8F	.	.	.	16ff
+.	.	.	.	16ee-X
+4B-	4ryy	8r	8ryy	4ddn
+.	.	16a-	16cc-	.
+.	.	16g-	16b-	.
+8r	4ryy	4f	4a-	8r
+8B-	.	.	.	16ee-
+.	.	.	.	16ff
+=14	=14	=14	=14	=14
+*	*staff:6	*	*	*
+*	*clefG2	*	*	*
+4E-	8r	8r	1ryy	4gg-
+.	16e-	16g-	.	.
+.	16f	16a-	.	.
+8r	4g-	4b-	.	8r
+8E-	.	.	.	16ee-
+.	.	.	.	16dd-
+4A-	8r	8r	.	4cc
+.	16c	16e-	.	.
+.	16d-	16f	.	.
+8r	4e-	4g-	.	8r
+8A-	.	.	.	16dd-
+.	.	.	.	16ee-
+=15	=15	=15	=15	=15
+4D-	8r	8r	1ryy	4ff
+.	16f	16a-	.	.
+.	16e-	16g-	.	.
+8r	8d-	8f	.	8r
+8D-	8d-	8f	.	16dd-
+.	.	.	.	16cc
+8G-	8d-	8g-	.	8b-
+16G-	8d-	8g-	.	8b-
+16F	.	.	.	.
+8E-	8e-	8b-	.	8gg-
+8E-	16e-	8b-	.	16gg-
+.	16f	.	.	16ff
+=16	=16	=16	=16	=16
+8c	8g-	8b-	1ryy	8ee-
+16c	8g-	16an	.	8ee-
+16B-	.	16b-	.	.
+8An	8g-	8cc	.	8ccc
+8A	8f	8cc	.	16ccc
+.	.	.	.	16bb-
+8e-	8cc	8ff	.	8aan
+16f	8cc	8ff	.	8aa
+16e-	.	.	.	.
+8dn	8b-	8ff	.	8bb-
+8d	8b-	8ff	.	16bb-
+.	.	.	.	16aa-
+=17	=17	=17	=17	=17
+8e-	8b-	8ff	1ryy	8gg-
+16e-	8b-	8ee-	.	8gg-
+16d-X	.	.	.	.
+8c	8b-	8ee-	.	8gg-
+16c	16an	8ee-	.	8gg-
+16B-	16b-	.	.	.
+8An	8cc	8ee-	.	8gg-
+8A	16f	16dd-	.	8ff
+.	16e-	16cc	.	.
+8B-	8d-	8b-	.	8ff
+16B-	8d-	8b-	.	16gg-
+16A-	.	.	.	16ff
+=18	=18	=18	=18	=18
+8G-X	8d-	8b-	1ryy	8ee-
+16G-	16c	16an	.	16ee-
+16F	16d-	16b-	.	16dd-
+8E-	8e-	8b-	.	8cc
+16E-	8f	16an	.	16cc
+16D-	.	16b-	.	16dd-
+8C	8g-X	8an	.	8ee-
+16C	8g-	16a	.	16cc
+16BB-	.	16b-	.	16dd-
+8AAn	8f	8cc	.	8ee-
+8FF	8f	16b-	.	16dd-
+.	.	16a	.	16cc
+=19	=19	=19	=19	=19
+8BB-	4f	4b-	1ryy	[2dd-
+16BB-	.	.	.	.
+16AA-X	.	.	.	.
+8GG-	8r	8r	.	.
+16GG-	8f	8b-	.	.
+16FF	.	.	.	.
+8EE-	4g-	4b-	.	8dd-]
+8EE-	.	.	.	16gg-
+.	.	.	.	16ff
+8EE-	8r	8r	.	16ee-
+.	.	.	.	16dd-
+8EE-	16e-	8g-	.	16cc
+.	16d-	.	.	16b-
+=20	=20	=20	=20	=20
+*	*staff:3	*	*staff:4	*
+*	*clefF4	*	*	*
+8FF	8c	4f	4ryy	8an
+8F	16An	.	.	16f
+.	16B-	.	.	16gn
+8F	8c	8r	8ryy	8an
+8F	8c	8e-	8f	8a
+8F	4B-	4d-X	8f	8a
+8F	.	.	16en	16gn
+.	.	.	16f	16a
+8F	8r	8r	8g	8b-
+8F	8d-X	8en	8g	8b-
+=21	=21	=21	=21	=21
+8F	8c	8en	8gn	8b-
+8F	16c	8f	16f	16an
+.	16d-	.	16g	16b-
+8F	8e-X	8r	8an	8cc
+8F	8e-	8f	8a	8cc
+8F	8d-	4f	8a	8cc
+8F	16d-	.	16gn	16b-
+.	16c	.	16a	16cc
+8F	8B-	8r	8b-	8dd-
+8F	16B-	8f	8b-	8dd-
+.	16A-X	.	.	.
+=22	=22	=22	=22	=22
+8F	8G-	8g-X	8b-	8dd-
+16E-	16G-	8g-	16an	16cc
+16D-	16F	.	16b-	16dd-
+8C 8E-	8G-	8g- 8an	8cc	8ee-
+16C 16E-	8G-	8g- 8a	16cc	16ee-
+16BB- 16D-	.	.	16dd-	16ff
+4AAn 4C	4E- 4G-X	4g-X;y 4an;y 4cc;y	4ee-;y	4gg-;
+8r	4ryy	8r	8ryy	8r
+8An	.	8f	8cc	8ff
+=23	=23	=23	=23	=23
+8B-	4ryy	8f	8b-	8dd-
+16G-	.	16B-	8b-	16ee-
+16E-	.	16g-	.	16cc
+8F	[4F	8f	8b-	8dd-
+8FF	.	8e-	8an	16cc
+.	.	.	.	16b-
+8BB-	8F]	8dn	8b-	[2b-
+8BB-	16F	16d	16f	.
+.	16E-	16e-	16g-	.
+8BB-	16Dn	8f	8a-	.
+.	16C	.	.	.
+8BB-	16E-	8f	8a-	.
+.	16D	.	.	.
+=24	=24	=24	=24	=24
+8BB-	8Dn	8f	8a-	1b-;]
+8BB-	16E-	[8e-	[8g-	.
+.	16F	.	.	.
+8BB-	8G-	8e-]	8g-]	.
+8BB-	8G-	16dn	16f	.
+.	.	16c	16e-	.
+2BB-	2F	2d;y	2f;	.
+==	==	==	==	==
+*-	*-	*-	*-	*-
+!!!AFR:  prelude
+!!!EFL:  43/96
+!!!END:  1994/01/20/
+!!!VID:  2440288885 Bach, BWV 867-01
+!!!AST:  Baroque
+!!!OCY:  Deutschland
+!!!ODT:  1722///
+!!!PDT:  1801///
+!!!EED:  Walter Hewlett
+!!!ENC:  Walter Hewlett
+!!!YOR:  Bach Gesellschaft Edition xiv
+!!!AFT:  enhanced SCORE
+!!!RDT:  2011/10/07/ by Andreas Kornstaedt using massScr2hmd
+!!!SCA1: Thematisch-systematisches Verzeichnis der musikalischen Werke 
+!!!SCA2: Johann Sebastian Bach: Bach-Werke-Verzeichnis (Schmieder)
+!!!YEC1: Copyright 1994, 2000 Center for Computer Assisted Research 
+!!!YEC2: in the Humanities
+!!!YEM1: Rights to all derivative editions reserved.
+!!!YEM2: Refer to licensing agreement for further details.
+!!!YEN:  United States of America
+!!!ref:  @{OTL}, @{SCT}
+!!muse2ps: T^@{OTL} @{ONM} in @{OKY}^C^J.S. Bach\n@{SCT}-@{OMV}^
+!!muse2ps: u^@{OPR@ENG}, @{OVM@ENG}^j

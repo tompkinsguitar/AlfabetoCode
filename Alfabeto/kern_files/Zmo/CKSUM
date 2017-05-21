@@ -1,0 +1,203 @@
+CHEKSUMS for files from /jrp/Zmo
+at http://kern.humdrum.org
+downloaded on Mon Nov  7 07:47:46 PST 2016
+A current version of these files may be downloaded using the address:
+   http://kern.humdrum.org/data?f=zip&l=/jrp/Zmo
+==================================================================
+
+The following lines list the checksum values for all score
+files in this downloaded zip archive.
+
+A "checksum" value is an error-checking mechanism that may
+assist in determining whether a file has been modified or data
+garbled due to transmission or faulty storage.  The "checksum A"
+value uses the POSIX 2 checksum algorithm.  The "checksum B" value
+uses the CCITT cyclic redundancy check algorithm.  
+
+Note that checksum commands will differ for ASCII files formatted
+in DOS/Windows style or Unix/Macintosh formatted text.  The files in
+this ZIP archive were in Unix/Macintosh line formatting style when the
+checksums were compiled.
+
+checksum A   checksum B    filename
+===================================================================
+
+3877674737 7479 Jos1401-Absalon_fili_mi.krn
+2784337880 15677 Jos1402-Benedicite_omnia_opera.krn
+3303746712 7943 Jos1403-Descendi_in_ortum_meum.krn
+3181701346 17048 Jos1404-Dilectus_Deo_et_hominibus.krn
+1075883460 7086 Jos1405-Ecce_Dominus_veniet.krn
+3767528802 6962 Jos1406-Ecce_tu_pulchra_es.krn
+177409102 8750 Jos1408-Miserimini_mei.krn
+1294130399 25210 Jos1409-Planxit_autem_David.krn
+2877980483 10631 Jos1410-Quam_pulchra_es.krn
+3298041387 1933 Jos1411-Qui_edunt_me.krn
+302291683 13016 Jos1412-Responde_mihi.krn
+3934760795 7144 Jos1413-Si_dormiero.krn
+881868349 11395 Jos1414-Stetit_autem_Salomon.krn
+1139375429 7841 Jos1501-Alleluia_Laudate_Dominum.krn
+1729279851 12821 Jos1502-Beati_omnes_qui_timent_Dominum.krn
+2388954264 10589 Jos1503-Beati_omnes_qui_timent_Dominum.krn
+1068939625 24902 Jos1505-Bonitatem_fecisti_cum_servo_tuo.krn
+3871129322 21318 Jos1506-Cantate_Domino_canticum_novum.krn
+583142636 23063 Jos1509-Confitemini_Domino.krn
+2314378773 12641 Jos1510-Conserva_me_domine.krn
+594998072 22228 Jos1511-De_profundis_clamavi.krn
+2870576586 13979 Jos1512-De_profundis_clamavi.krn
+848164705 11785 Jos1513-De_profundis_clamavi.krn
+2510895049 17528 Jos1514-De_profundis_clamavi.krn
+1982798585 10555 Jos1601-Deus_in_adiutorium_meum.krn
+1148882523 15866 Jos1604-Domine_dominus_noster.krn
+1463914886 24540 Jos1605-Domine_exaudi_orationem_meam.krn
+4094812921 15813 Jos1606-Domine_ne_in_furore.krn
+2437754263 12183 Jos1607-Domine_ne_in_furore.krn
+3234533470 18910 Jos1608-Domine_ne_in_furore.krn
+251171415 15295 Jos1609-Domine_ne_projicias_me.krn
+103053626 16141 Jos1610-Domine_non_secundum_peccata.krn
+2241846358 23333 Jos1702-Illumina_oculos.krn
+1500980635 14098 Jos1703-In_domino_confido.krn
+2170578736 29084 Jos1704-In_exitu_Israel_de_Egypto.krn
+2595361101 3085 Jos1705-In_pace_in_idipsum.krn
+3329307155 9837 Jos1707-Jubilate_Deo_omnis_terra.krn
+239045263 10788 Jos1708-Judica_me_Deus.krn
+2508106334 16799 Jos1711-Laudate_pueri_Dominum.krn
+1468596862 13423 Jos1712-Letare_nova_Syon.krn
+764383411 14733 Jos1713-Levavi_oculos_meos.krn
+1407999647 23170 Jos1714-Memor_esto_verbi_tui.krn
+83092776 24259 Jos1801-Mirabilia_testimonia_tua_Domine.krn
+589872180 5279 Jos1802-Mirabilia_testimonia_tua.krn
+366581858 35983 Jos1803-Miserere_mei_Deus.krn
+971675512 21746 Jos1807-Qui_habitat_in_adjutorio_altissimi.krn
+1447089225 86736 Jos1808-Qui_habitat_in_adjutorio_altissimi.krn
+1370967882 4990 Jos1901-Christus_mortuus_est.krn
+2850132206 6955 Jos1902-Ecce_video_celos_apertos.krn
+600865227 30069 Jos1903-Factum_est_autem.krn
+2048267195 12309 Jos1904-Homo_quidam_fecit_cenam.krn
+4175719785 8872 Jos1905-In_illo_tempore_assumpsit_Jesus.krn
+2623634902 15177 Jos1906-In_illo_tempore_stetit_Jesus.krn
+2101305475 17796 Jos1908-In_principio_erat_verbum.krn
+2851530860 13008 Jos1910-Inter_natos_mulierum.krn
+2874437654 23804 Jos1912-Lectio_actuum_apostolorum.krn
+1651059258 28290 Jos1913-Liber_generationis.krn
+2217492841 16691 Jos2001-Magnificat_Tertii_toni.krn
+1476046226 13297 Jos2002-Magnificat_Tertii_toni.krn
+1667927562 22942 Jos2003-Magnificat_Quarti_toni.krn
+4257188713 4352 Jos2004-Magnificat_Quarti_toni-Verse_6_Fecit_potentiam.krn
+4081407582 19293 Jos2006-Missus_est_Gabriel.krn
+3663896040 7139 Jos2007-Missus_est_Gabriel_angelus.krn
+630413875 9320 Jos2008-Nunc_dimittis.krn
+30133283 37698 Jos2009-Pater_noster.krn
+475593918 28283 Jos2011-Responsum_acceperat_Simeon.krn
+2307186065 6529 Jos2013-Sic_Deus_dilexit_mundum__Circumdederunt_me.krn
+2997087110 13575 Jos2014-Tulerunt_Dominum.krn
+384937706 24035 Jos2016-Verbum_caro_factum_est.krn
+2141240896 7738 Jos2102-Ave_verum_corpus.krn
+1201112232 13375 Jos2103-Ave_verum_corpus.krn
+2415609552 3742 Jos2104-Ave_verum.krn
+2372520848 31869 Jos2105-Huc_me_sydereo--a_5.krn
+1673159588 22997 Jos2105.2-Huc_me_sydereo--a_6.krn
+3225274368 9839 Jos2106-Magnus_es_tu,_domine.krn
+2844283320 29949 Jos2107-O_admirabile_commercium.krn
+1149411181 13792 Jos2109-O_bone_et_dulcissime_Jesu.krn
+740261507 17446 Jos2201-O_Domine_Jesu_Christe.krn
+2784305092 6349 Jos2202-Pange_lingua_gloriosi.krn
+2915371075 27844 Jos2203-Qui_velatus.krn
+655647714 6223 Jos2205-Tu_solus_qui_facis_mirabilia.krn
+1472696690 8670 Jos2206-Victimae_paschali_laudes__Dung_aultre_amer.krn
+3963567602 25742 Jos2207-Victime_paschali_laudes.krn
+2003625410 10210 Jos2301-Alma_redemptoris_mater.krn
+4116758922 13483 Jos2302-Alma_redemptoris_mater__Ave_regina_celorum.krn
+656254750 5759 Jos2304-Ave_Maria_..._benedicta_tu.krn
+2109414935 3474 Jos2305-Ave_Maria.krn
+2331842086 19637 Jos2306-Ave_Maria_..._virgo_serena.krn
+1327928274 17240 Jos2306.2-Ave_Maria_..._virgo_serena--a_6.krn
+2729539024 15567 Jos2308-Ave_maris_stella.krn
+1308906164 20900 Jos2310-Ave_mundi_spes.krn
+359657753 30520 Jos2311-Ave_nobilissima_creatura.krn
+2930584927 7258 Jos2312-Ave_virgo_sanctissima.krn
+4279557531 20968 Jos2313-Benedicta_es_celorum.krn
+3645578700 8477 Jos2402-Gaude_virgo.krn
+1704182916 17189 Jos2403-Illibata_dei_virgo.krn
+995352733 26889 Jos2404-Inviolata_integra_et_casta_es.krn
+797939475 18981 Jos2405-Inviolata_integra_et_casta_es.krn
+2836879428 17252 Jos2406-Mittit_ad_virginem.krn
+369715473 12466 Jos2407-Nesciens_mater_virgo.krn
+2036531081 10413 Jos2408-Obsecro_te_domina.krn
+1173738251 40665 Jos2409-O_virgo_prudentissima.krn
+1321273884 22141 Jos2410-O_virgo_virginum.krn
+2843477292 39088 Jos2411-Preter_rerum_seriem.krn
+3450421295 10912 Jos2501-Recordare_virgo_mater.krn
+2342659029 12675 Jos2502-Regina_celi_letare.krn
+563883629 7298 Jos2503-Regina_celi_letare.krn
+2911268744 9888 Jos2504-Salve_regina.krn
+2035199522 16271 Jos2505-Salve_regina.krn
+3996810260 29984 Jos2506-Salve_regina.krn
+2150673105 11676 Jos2507-Sancta_Maria_virgo_virginum.krn
+72790413 6066 Jos2508-Sancta_mater_istud_agas.krn
+3036549054 17954 Jos2509-Stabat_mater__Comme_femme.krn
+907480493 17430 Jos2511-Verbum_bonum_et_suave.krn
+3565898167 10214 Jos2512-Virgo_prudentissima.krn
+946642660 40058 Jos2513-Virgo_salutiferi__Ave_Maria.krn
+3031959977 76206 Jos2514-Vultum_tuum_deprecabuntur.krn
+2517071978 8783 Jos2601-Absolve_Quaesumus_Domine.krn
+794816462 17872 Jos2604-Deus_pacis_reduxit.krn
+3879266330 2897 Jos2607-Honor_decus_imperium.krn
+3823070400 62879 Jos2608-O_admirabile_commercium__Verbum_caro_factum_est.krn
+843292268 7236 Jos2610-Puer_natus_est_nobis.krn
+614067606 10505 Jos2611-Queramus_cum_pastoribus.krn
+1739425368 4914 Jos2612-Salva_nos_domine.krn
+1933754748 11573 Jos2613-Sancta_trinitas.krn
+446027767 16254 Jos2614-Sancti_Dei_omnes.krn
+3117310377 33559 Jos2615-Te_Deum.krn
+727304174 17875 Jos2616-Te_Deum_laudamus.krn
+2789710664 6869 Jos2617-Tua_est_potentia.krn
+1696125893 21311 Jos2618-Veni_sancte_spiritus.krn
+1247195787 16289 Jos9903-Regina_celi_letare.krn
+4274561117 8405 Jos9904-Proch_dolor.krn
+2109414935 3474 Mou2018-Ave_Maria.krn
+583142636 23063 Mou2032-Confitemini_Domino.krn
+177409102 8750 Mou2064-Miserimini_mei.krn
+614067606 10505 Mou2087-Queramus_cum_pastoribus.krn
+1739425368 4914 Mou2093-Salva_nos_domine.krn
+446027767 16254 Mou2096-Sancti_Dei_omnes.krn
+4081407582 19293 Mou2124-Missus_est_Gabriel.krn
+2877980483 10631 Mou2126-Quam_pulchra_es.krn
+1933754748 11573 Mou2131-Sancta_trinitas.krn
+727304174 17875 Mou2135-Te_Deum_laudamus.krn
+830220902 22077 Obr2012-Inter_preclarissimas_virtutes.krn
+4083013900 17753 Obr2018-Mille_quingentis__Requiem.krn
+795286190 27655 Obr2028-Salve_crux.krn
+2285701073 17248 Ock2001-Alma_redemptoris_mater.krn
+980687657 8535 Ock2002-Ave_Maria.krn
+2302172326 16102 Ock2004-Salve_regina_I.krn
+1965090613 10090 Ort2001-Ave_Maria_gratia_plena.krn
+1886125902 29023 Ort2002-Ave_Maria_mater_gratie.krn
+618333082 14863 Ort2004-Domine_non_secundum_peccata_nostra.krn
+2990649187 27904 Ort2005-Lamentatio_Jeremie_prophete.krn
+756121464 11272 Ort2006-Lucis_creator_optime.krn
+3154815186 3966 Ort2007-Ut_queant_laxis.krn
+4203143063 22349 Ort2008-Salve_regis_mater_sanctissima__Hic_est_sacerdos.krn
+957426792 7382 Ort2010-Descendi_in_ortum_meum.krn
+3684994651 7312 Rue2001-Ave_regina_celorum.krn
+2047326299 19719 Rue2002-Considera_Israel.krn
+411894124 2582 Rue2003-Da_pacem_Domine.krn
+3597582093 16685 Rue2004-Delicta_iuventutis.krn
+1631914509 26748 Rue2005-Gaude_virgo_mater_Christi.krn
+1275334719 14734 Rue2006-Lauda_anima_mea_dominum.krn
+3235370369 8515 Rue2007-Laudate_dominum.krn
+3172583542 23878 Rue2009-Magnificat_Secundi_toni.krn
+1657916762 27794 Rue2010-Magnificat_Quarti_toni.krn
+4142284658 38535 Rue2012-Magnificat_Sexti_toni.krn
+1803122157 22822 Rue2014-Magnificat_Octavi_toni.krn
+2582393461 7209 Rue2015-O_domine_Jesu_Christe.krn
+4235348111 2356 Rue2016-O_salutaris_hostia.krn
+3947875349 33184 Rue2017-Pater_de_celis_deus.krn
+936763667 9787 Rue2018-Quis_dabit_pacem.krn
+3411342192 10848 Rue2019-Regina_celi.krn
+4267589513 10857 Rue2021-Salve_regina_I.krn
+1881886048 18867 Rue2022-Salve_regina_II.krn
+1325739204 11046 Rue2023-Salve_regina_III.krn
+2271751401 11902 Rue2024-Salve_regina_IV.krn
+3934760795 7144 Rue2028-Si_dormiero.krn
+3877674737 7479 Rue2030-Absalon_fili_mi.krn
+1667927562 22942 Rue2032-Magnificat_Quarti_toni.krn
