@@ -1254,16 +1254,16 @@ def k_means_data(list_of_lists, cluster_number, label_markers, path):
                                           sample_size=sample_size)))
 
 
-    bench_k_means(KMeans(init='k-means++', n_clusters=n_digits, n_init=10, precompute_distances=True, n_jobs=-1),
+    bench_k_means(KMeans(init='k-means++', n_clusters=n_digits, n_init=100, precompute_distances=True, n_jobs=-1),
                   name="k++", data=data)
 
-    bench_k_means(KMeans(init='random', n_clusters=n_digits, n_init=10, precompute_distances=True, n_jobs=-1),
+    bench_k_means(KMeans(init='random', n_clusters=n_digits, n_init=100, precompute_distances=True, n_jobs=-1),
                   name="rand", data=data)
 
     # in this case the seeding of the centers is deterministic, hence we run the
     # kmeans algorithm only once with n_init=1
     pca = PCA(n_components=n_digits).fit(data)
-    bench_k_means(KMeans(init=pca.components_, n_clusters=n_digits, n_init=1, precompute_distances=True, n_jobs=-1),
+    bench_k_means(KMeans(init=pca.components_, n_clusters=n_digits, n_init=100, precompute_distances=True, n_jobs=-1),
                   name="PCA",
                   data=data)
     print(55 * '_')
@@ -1272,7 +1272,7 @@ def k_means_data(list_of_lists, cluster_number, label_markers, path):
     # Visualize the results on PCA-reduced data
 
     reduced_data = PCA(n_components=2).fit_transform(data)
-    kmeans = KMeans(init='k-means++', n_clusters=n_digits, n_init=10)
+    kmeans = KMeans(init='k-means++', n_clusters=n_digits, n_init=100, tol=0.00001, precompute_distances=True, n_jobs=-1)
     kmeans.fit(reduced_data)
 
     # Step size of the mesh. Decrease to increase the quality of the VQ.
@@ -1599,7 +1599,7 @@ def function_thing(csv_making_function, data_type):
 def neato_plain(list_of_lists, label_lists, path):
     dt = [('len', float)]
 
-    A = (np.array(list_of_lists)/10).view(dt)
+    A = (np.array(list_of_lists)*100).view(dt)
     # print(A)
     G = nx.from_numpy_matrix(A)
     relabeled_nodes = {}
@@ -1697,6 +1697,32 @@ def neato_graph_big(list_of_lists, label_lists, path):
     G.draw(path, format='pdf', prog='neato')
 
 #returns silhouette, completeness and PCA data for plotting
+
+def meanshift_simple(list_of_lists, cluster_number, label_markers):
+    from sklearn.cluster import MeanShift
+    data = np.array(list_of_lists)
+    label_dict = {}
+    label_numbers = []
+    n = 0
+    label_dict[label_markers[0]] = 0
+    for j in range(1, len(label_markers)):
+        if label_markers[j] not in label_dict:
+            label_dict[label_markers[j]] = n+1
+            n += 1
+
+    for i in label_markers:
+        label_numbers.append(label_dict[i])
+    n_samples, n_features = data.shape
+    n_digits = cluster_number
+    labels = np.array(label_numbers)
+    # print('label numbers', label_numbers)
+    # sample_size = 300
+
+    sample_size = len(data)
+
+    ms = MeanShift().fit(data)
+    return ms
+
 def k_means_simple(list_of_lists, cluster_number, label_markers):
 
     data = np.array(list_of_lists)
@@ -1719,13 +1745,17 @@ def k_means_simple(list_of_lists, cluster_number, label_markers):
 
     sample_size = len(data)
 
-    k_data = KMeans(init='k-means++', n_clusters=n_digits, n_init=10, precompute_distances=True, n_jobs=-1).fit(data)
+    k_data = KMeans(init='k-means++', n_clusters=n_digits, n_init=1000, precompute_distances=True, tol=0.00001, n_jobs=-1).fit(data)
     silhouette = metrics.silhouette_score(data, k_data.labels_, metric='euclidean', sample_size=sample_size)
     completeness = metrics.completeness_score(labels, k_data.labels_)
-    #pca = PCA(n_components=2)
-    #pca.fit_transform(data)
+    homogeneity = metrics.homogeneity_score(labels, k_data.labels_)
+    calinski_harabaz = metrics.calinski_harabas_score(data, k_data.labels_)
+    inertia = k_data.inertia_
+#    pca = PCA(n_components=2)
+#    pca.fit_transform(data)
+#    pca_data = KMeans(init='k-means++', n_clusters=n_digits, n_init=1000, precompute_distances=True, tol=0.00001, n_jobs=-1).fit(pca)
 #     pca = PCA(n_components=2).fit(data).score(data)
-    return {'silhouette': silhouette, 'completeness': completeness, 'kmeans': k_data}
+    return {'silhouette': silhouette, 'completeness': completeness, 'kmeans': k_data, 'homogeneity': homogeneity, 'inertia': inertia, 'calinski_harabaz': calinski_harabaz}
 
 #plots silhouette and completeness scores and saves them to a path (use PDF)
 def fitness_plotter(corpus, corpus_labels, max_cluster, path):
@@ -1756,16 +1786,20 @@ def fitness_plotter(corpus, corpus_labels, max_cluster, path):
 def fitness_plotter_big(corpus, corpus_labels, max_cluster, path):
     silhouette_data = []
     completeness_data = []
+    homogeneity_data = []
     X = [x for x in range(2, max_cluster+1)]
     for x in range(2, max_cluster+1):
         temp = k_means_simple(corpus, x, corpus_labels)
         silhouette_data.append(temp['silhouette'])
         completeness_data.append(temp['completeness'])
+        homogeneity_data.append(temp['homogeneity'])
     plt.ylim([0, 1.1])
     plt.xlim([1, 13])
     plt.plot(X, completeness_data, color='blue', linestyle='-', marker='o', label='completeness score')
 
     plt.plot(X, silhouette_data, color='green', linestyle='-', marker='o', label='silhouette score')
+    
+    plt.plot(X, homogeneity_data, color='yellow', linestyle='-', marker='^', label='homogeneity score')
     plt.xticks(fontsize=18)
     plt.yticks(fontsize=18)
     legend = plt.legend(loc='upper right', shadow=True, fontsize='large')
@@ -1776,6 +1810,7 @@ def fitness_plotter_big(corpus, corpus_labels, max_cluster, path):
     plt.grid(True)
     plt.savefig(path, bbox_inches='tight')
     plt.show()
+    return {'silhouette': silhouette_data, 'completeness': completeness_data}
 
 # def ngram_to_numeral(data, mode, ngram, numeral, progression_element, tab):
 #     # G = nx.OrderedMultiDiGraph()

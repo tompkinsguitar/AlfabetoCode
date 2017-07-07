@@ -1,7 +1,5 @@
-import time
-
-
 def icv(list_of_pitches):
+    """Returns the interval class vectors of pitch set"""
     pitch_classes = set(x % 12 for x in list_of_pitches)
     icv_dict = {x: 0 for x in range(1, 7)}
     for x in pitch_classes:
@@ -18,6 +16,7 @@ def icv(list_of_pitches):
 
 
 def prime_form(pitches):
+    """Returns prime form after attempting all inversions and transpositions of set"""
     pc_set = sorted(set([pitch % 12 for pitch in pitches]))
     all_permutations = []
 
@@ -35,15 +34,10 @@ def prime_form(pitches):
 
     return min(all_permutations)
 
-test_pitches = [0, 4, 2, 5, 3, 77]
-print('time for icv:')
-start_time_icv = time.time()
+
+
+
+test_pitches = [0, 4, 2, 5, 3, 77] #works with numbers ove 12 and microtonal (nondiscrete) pitches
 icv(test_pitches)
-print(time.time() - start_time_icv)
 
-print()
-
-print('time for prime form:')
-start_time_pc = time.time()
 prime_form(test_pitches)
-print(time.time() - start_time_pc)

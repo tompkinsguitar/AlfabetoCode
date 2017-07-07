@@ -143,6 +143,8 @@ josquin_continuo_data = pickle.load(josquin_continuo_pickle_in)
 # monteverdi_notes_pickle_in = open("pickles/monteverdi_notes.pickle", "rb")
 # monteverdi_notes_data = pickle.load(monteverdi_notes_pickle_in)
 
+monteverdi_notes_data = joblib.load('pickles/monteverdi_notes.pkl')
+
 monteverdi_continuo_pickle_in = open("pickles/monteverdi_continuo_chords.pickle", "rb") #[0[047]] and keys
 monteverdi_continuo_data = pickle.load(monteverdi_continuo_pickle_in)
 
@@ -165,6 +167,9 @@ palestrina_continuo_data = pickle.load(palestrina_continuo_pickle_in)
 # trecento_notes_pickle_in = open("pickles/trecento_notes.pickle", "rb")
 # trecento_notes_data = pickle.load(trecento_notes_pickle_in)
 
+victoria_notes_data = joblib.load('pickles/victoria_notes.pkl')
+
+
 zma_continuo_data = joblib.load('pickles/Zma_continuo.pkl')
 zmo_continuo_data = joblib.load('pickles/Zmo_continuo.pkl')
 zso_continuo_data = joblib.load('pickles/Zso_continuo.pkl')
@@ -173,5 +178,5 @@ zma_notes_data = joblib.load('pickles/Zma_notes.pkl')
 zmo_notes_data = joblib.load('pickles/Zmo_notes.pkl')
 zso_notes_data = joblib.load('pickles/Zso_notes.pkl')
 
-
+liber_notes_data = joblib.load('pickles/liber_notes.pkl')
 #
