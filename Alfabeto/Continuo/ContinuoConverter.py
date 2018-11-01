@@ -142,6 +142,13 @@ def book_converter_pc(book, mode):
             all_songs_final.append(no_dupes)
     return all_songs_final
 
+def corpus_converter_pc(list_of_books, mode):
+    all_corpus = []
+    for book in list_of_books:
+        abook = book_converter_pc(book, mode)
+        for song in abook:
+            all_corpus.append(song)
+    return all_corpus
 
 def book_converter_pc_untransposed(book, mode):
     all_songs = []

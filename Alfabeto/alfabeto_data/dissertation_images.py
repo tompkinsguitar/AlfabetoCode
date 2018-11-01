@@ -3,7 +3,7 @@ from alfabeto_sources.all_sources import *
 from alfabeto_code.AlfabetoConverter import transposed_pc_chords_noMMD
 from alfabeto_data.pickled_data import *
 from alfabeto_data.harmonic_function_data import *
-from Continuo.ContinuoConverter import figure_intervals_pc, book_converter_pc_untransposed
+from Continuo.ContinuoConverter import *
 from Continuo.ContinuoMarkov import scale_degree_harmonization_song, scale_degree_harmonization_song_untransposed, scale_degree_harmonization
 import numpy as np
 import matplotlib.pyplot as plt
@@ -206,6 +206,37 @@ def python_hmm(corpus, modes, datatype):
     return np.array(XX), Xlen, ordered_numerals
 
 def python_hmm_corpus(corpus, modes):#continuo_data
+    X = []
+    numerals = []
+    ordered_numerals = []
+    for a, b in zip(corpus[0], corpus[1]):
+        if b in modes:
+            X.append(a)
+    for x in X:
+        for y in x:
+            if y not in numerals:
+                numerals.append(y)
+    for x in ordered_numeral_list:
+        for y in numerals:
+            if numerals_to_data[x] == y:
+                ordered_numerals.append(x)
+    XX = []
+    X_temp = []
+    Xlen = []
+    for x in X:
+        temp_list = []
+        for y in x:
+            for a, b in numerals_to_data.items():
+                if y == b:
+                    temp_list.append(0)
+                    XX.append([ordered_numerals.index(a)])
+        X_temp.append(temp_list)
+    for x in X_temp:
+        if len(x) > 0:
+            Xlen.append(len(x))
+    return np.array(XX), Xlen, ordered_numerals
+
+def python_rnn_corpus(corpus):#continuo_data for rnn (change labels)
     X = []
     numerals = []
     ordered_numerals = []
@@ -747,6 +778,7 @@ modal_types = {'ionian': [('f', 5), (-1, 5), ('n', 0), (0, 0)],
                'aeolian': [('n', 9), (0, 9), ('f', 2), (-1, 2)]}
 tonal_major = [x for x in tonal_major_dict.keys()]
 tonal_minor = [x for x in tonal_minor_dict.keys()]
+all_keys = tonal_major + tonal_minor
 
 def function_mapper(corpus, modes, cluster, source, path): #saves function arrow graph as pdf
     X = []
@@ -1749,13 +1781,12 @@ def k_means_simple(list_of_lists, cluster_number, label_markers):
     silhouette = metrics.silhouette_score(data, k_data.labels_, metric='euclidean', sample_size=sample_size)
     completeness = metrics.completeness_score(labels, k_data.labels_)
     homogeneity = metrics.homogeneity_score(labels, k_data.labels_)
-    calinski_harabaz = metrics.calinski_harabas_score(data, k_data.labels_)
     inertia = k_data.inertia_
 #    pca = PCA(n_components=2)
 #    pca.fit_transform(data)
 #    pca_data = KMeans(init='k-means++', n_clusters=n_digits, n_init=1000, precompute_distances=True, tol=0.00001, n_jobs=-1).fit(pca)
 #     pca = PCA(n_components=2).fit(data).score(data)
-    return {'silhouette': silhouette, 'completeness': completeness, 'kmeans': k_data, 'homogeneity': homogeneity, 'inertia': inertia, 'calinski_harabaz': calinski_harabaz}
+    return {'silhouette': silhouette, 'completeness': completeness, 'kmeans': k_data, 'homogeneity': homogeneity, 'inertia': inertia}
 
 #plots silhouette and completeness scores and saves them to a path (use PDF)
 def fitness_plotter(corpus, corpus_labels, max_cluster, path):
@@ -1778,7 +1809,7 @@ def fitness_plotter(corpus, corpus_labels, max_cluster, path):
     legend.get_frame().set_facecolor('#00FFCC')
     plt.xlabel('number of clusters (modes)', fontsize=14)
     plt.ylabel('score', fontsize=14)
-    
+
     plt.grid(True)
     plt.savefig(path, bbox_inches='tight')
     plt.show()
@@ -1798,7 +1829,7 @@ def fitness_plotter_big(corpus, corpus_labels, max_cluster, path):
     plt.plot(X, completeness_data, color='blue', linestyle='-', marker='o', label='completeness score')
 
     plt.plot(X, silhouette_data, color='green', linestyle='-', marker='o', label='silhouette score')
-    
+
     plt.plot(X, homogeneity_data, color='yellow', linestyle='-', marker='^', label='homogeneity score')
     plt.xticks(fontsize=18)
     plt.yticks(fontsize=18)
@@ -1806,7 +1837,7 @@ def fitness_plotter_big(corpus, corpus_labels, max_cluster, path):
     legend.get_frame().set_facecolor('#00FFCC')
     plt.xlabel('number of clusters (modes)', fontsize=24)
     plt.ylabel('score', fontsize=24)
-    
+
     plt.grid(True)
     plt.savefig(path, bbox_inches='tight')
     plt.show()
@@ -1962,10 +1993,11 @@ def fitness_plotter_big(corpus, corpus_labels, max_cluster, path):
 
 
 bach_continuo = corpus_chord_data(bach_continuo_data)
-josquin_continuo = corpus_chord_data(josquin_continuo_data)
-barbershop_continuo_data = joblib.load('pickles/barbershop.pkl')
-monteverdi_continuo = corpus_chord_data(monteverdi_continuo_data)
-barbershop_continuo = corpus_chord_data(barbershop_continuo_data)
+alfabeto_continuo = corpus_converter_pc(GetAll.all_alf, 'all')
+# josquin_continuo = corpus_chord_data(josquin_continuo_data)
+# barbershop_continuo_data = joblib.load('pickles/barbershop.pkl')
+# monteverdi_continuo = corpus_chord_data(monteverdi_continuo_data)
+# barbershop_continuo = corpus_chord_data(barbershop_continuo_data)
 zma = joblib.load('pickles/Zma_continuo.pkl')
 zmo = joblib.load('pickles/Zmo_continuo.pkl')
 zso = joblib.load('pickles/Zso_continuo.pkl')
@@ -1982,6 +2014,7 @@ palestrina_continuo = corpus_chord_data(palestrina_continuo_data)
 zma_continuo = corpus_chord_data(zma)
 zmo_continuo = corpus_chord_data(zmo)
 zso_continuo = corpus_chord_data(zso)
+
 
 # palestrina_continuo_function_major = bigram_numbers_corpus(palestrina_continuo, [(0, 0), (-1, 5)])
 
